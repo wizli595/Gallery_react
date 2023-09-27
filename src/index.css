@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+  height: 100vh;
+}
+img,
+svg {
+  cursor: pointer;
+}
+.box {
+  transform: translate(0, 15%);
+}
